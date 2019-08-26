@@ -13,5 +13,4 @@ payload = json.loads(CONFIG.APPLICATION)
 step2 = requests.post(submitURI, json = payload, headers = CONFIG.HEADER)
 print(step2.status_code)
 print(step2.json()) 
-# application = json.loads(CONFIG.APPLICATION)
 
